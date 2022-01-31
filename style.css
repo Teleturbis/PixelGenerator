@@ -1,0 +1,36 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: rgb(110, 110, 110);
+}
+
+header {
+  height: 3rem;
+  background-color: black;
+  margin: -0.5em -0.5em 0 -0.5em;
+  text-align: center;
+}
+
+#footerDiv {
+  margin: 0 -0.5em -0.5em -0.5em;
+  background-color: black;
+  padding: 0.5em;
+
+  text-align: center;
+}
+
+#levelMap {
+  background-color: black;
+
+  margin: 2em auto;
+  width: 800px;
+  height: 800px;
+  padding: 1em;
+
+  display: grid;
+
+  grid-template-columns: repeat(100, 1%);
+  grid-template-rows: repeat(100, 1%);
+}
